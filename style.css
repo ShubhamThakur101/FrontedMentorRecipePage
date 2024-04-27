@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+    max-width: 60%;
+    /* border: 2px solid red; */
+    background-color: #ffffff;
+    padding: 30px;
+    margin-top: 80rem;
+    border-radius: 10px;
+}
+
+
+.head-img {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    /* margin: 0 auto; */
+}
+
+.head-img>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.recipe-title {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.recipe-title h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.recipe-title p {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    padding: 20px 0px;
+}
+
+.prepration-time {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 3px solid red; */
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+
+.prepration-time h2 {
+    padding-bottom: 10px;
+    color: hsl(332, 51%, 32%);
+}
+
+
+.prepration-time ul {
+    padding: 10px 20px;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%)
+}
+
+.prepration-time li {
+    padding: 10px 0px;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%)
+}
+
+.span-title {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(24, 5%, 18%);
+}
+
+.ingredients-list {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ingredients-list h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.ingredients-list ul {
+    padding: 10px 20px;
+    color: hsl(14, 45%, 36%);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#ing-list {
+    padding: 10px 0px;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%)
+}
+
+.section-line {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    /* border: 1px solid red; */
+}
+
+.lines {
+    border: 1px solid hsl(30, 18%, 87%);
+}
+
+.instruction-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.instruction-list h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.instruction-list ol {
+    padding: 10px 20px;
+    color: hsl(14, 45%, 36%);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.instruction-list li {
+    padding: 10px 0px;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%)
+}
+
+.Nutrition {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.Nutrition h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.Nutrition p {
+    padding: 20px 0px;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%)
+}
+
+.n-h3 {
+    padding: 10px 20px;
+    margin: 2px 20px;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(30, 10%, 34%)
+}
+
+.n-unit1 {
+    margin: 0 350px;
+}
+
+.n-unit2 {
+    margin: 0 372px;
+}
+
+.n-unit3 {
+    margin: 0 356px;
+}
+
+.n-unit4 {
+    margin: 0 392px;
+}
+
+.n-unit1,
+.n-unit2,
+.n-unit3,
+.n-unit4 {
+    color: hsl(14, 45%, 36%);
+}
+
+h5 {
+    color: hsl(0, 0%, 100%);
+    color: hsl(330, 100%, 98%);
+    color: hsl(30, 54%, 90%);
+    color: hsl(30, 18%, 87%);
+    color: hsl(30, 10%, 34%);
+    color: hsl(24, 5%, 18%);
+    color: hsl(14, 45%, 36%);
+    color: hsl(332, 51%, 32%)
+}
